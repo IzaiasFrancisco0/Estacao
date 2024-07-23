@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/IzaiasFrancisco0/estacao/static/css/main.883e7811.css",
+    "main.js": "/IzaiasFrancisco0/estacao/static/js/main.a568b140.js",
+    "static/js/453.c2d21b9e.chunk.js": "/IzaiasFrancisco0/estacao/static/js/453.c2d21b9e.chunk.js",
+    "static/media/banner.png": "/IzaiasFrancisco0/estacao/static/media/banner.e87ff42cfbf178c92fbb.png",
+    "static/media/tomate.jpeg": "/IzaiasFrancisco0/estacao/static/media/tomate.a652874c75d3d6120fa1.jpeg",
+    "static/media/macarrao.jpeg": "/IzaiasFrancisco0/estacao/static/media/macarrao.abe8dc66d815da46d951.jpeg",
+    "static/media/arroz.jpeg": "/IzaiasFrancisco0/estacao/static/media/arroz.2a956424c7b168bece6a.jpeg",
+    "static/media/quibebe.jpeg": "/IzaiasFrancisco0/estacao/static/media/quibebe.0d9bdb5252d218381344.jpeg",
+    "static/media/feijao.jpeg": "/IzaiasFrancisco0/estacao/static/media/feijao.d84f8eabcab5d713badb.jpeg",
+    "static/media/melancia.jpeg": "/IzaiasFrancisco0/estacao/static/media/melancia.e0aadd800631a9ffd573.jpeg",
+    "index.html": "/IzaiasFrancisco0/estacao/index.html",
+    "main.883e7811.css.map": "/IzaiasFrancisco0/estacao/static/css/main.883e7811.css.map",
+    "main.a568b140.js.map": "/IzaiasFrancisco0/estacao/static/js/main.a568b140.js.map",
+    "453.c2d21b9e.chunk.js.map": "/IzaiasFrancisco0/estacao/static/js/453.c2d21b9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.883e7811.css",
+    "static/js/main.a568b140.js"
+  ]
+}

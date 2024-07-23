@@ -1,0 +1,10 @@
+
+@media (width < 500px){
+  .painel{
+    grid-template-columns: 1fr;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}

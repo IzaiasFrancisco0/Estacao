@@ -1,0 +1,119 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(241, 240, 238);
+  position: fixed;
+    width: 100%;
+    z-index: 800;
+    top: 0;
+}
+.logo_name{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.logo_name img {
+width: 70px;
+height: 70px;
+}
+.logo_name h1{
+    padding-left: 15px;
+    font-weight: lighter;
+    font-size: 28px;
+}
+.pedido{
+    margin-left: 15rem;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.pedido:hover{
+  background-color: rgb(206, 124, 0);
+}
+.nav_bar{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.bar{
+    border-bottom: 4px solid black;
+    border-radius: 5px; 
+}
+.logo_name img{
+  width: 55px;
+  height: 55px;
+}
+.icone i{
+    font-size: 18px;
+    padding-right: 5px;
+}
+.logo_name h1{
+  font-size: 22px;
+  margin-top: 1rem;
+  padding-left: 3px;
+}
+.mobile_menu{
+    color: #fff;
+    background-color: rgb(61, 60, 60);
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 79%;
+    width: 200px;
+    height: 270px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(201, 201, 201);
+    text-align: center;
+}
+
+ul li{
+   list-style: none;
+   padding-top: 20px;
+}
+.mobile_menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+.mobile_menu a:hover{
+    border-bottom: 2px solid orange;
+}
+.mobile_menu.open{
+display: block;
+}
+
+
+@media (max-width: 768px) {
+  .pedido {
+    padding: 6px;
+      margin-left: 0;
+      margin-top: 0.5rem;
+  }
+  
+  .nav_bar {
+      display: flex; /* Exibe o ícone do menu em telas pequenas */
+  }
+  
+  .mobile_menu {
+      top: 100%;
+      left: 60%;
+      width: 40%;
+      height: 250px;
+      position: absolute;
+      max-height: 0; /* Oculta o menu inicialmente */
+      overflow: hidden;
+      text-align: center;
+  }
+  
+  .mobile_menu.open {
+      max-height: 500px; /* Ajuste conforme necessário */
+  }
+}

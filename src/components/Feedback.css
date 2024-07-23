@@ -1,0 +1,98 @@
+.feedback{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    width: 550px;
+margin-left: 37%;
+border: 2px solid black;
+margin-top: 8rem;
+box-shadow: 2px 2px 2px rgb(125, 125, 125);
+border-radius: 5px;
+margin-bottom: 8rem;
+background-color: rgb(233, 230, 230, 0.25);
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: bold;
+}
+.feedback form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  
+}
+.feedback h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: orange;
+}
+form label{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form input{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+    width: 350px;
+}
+form button{
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    transition: 2s;
+}
+form button:hover{
+    background-color: orange;
+    
+}
+form textarea{
+    height: 180px;
+    resize: none;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.mensagem {
+    color: orange;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: aqua;
+    padding: 10px;
+    
+}
+
+@media (width < 500px){
+    .feedback{
+        width: 94%;
+        margin-left: 2%;
+    }
+   
+    form label{
+        margin-left: 3%;
+    }
+    form input{
+       width: 90%;
+       margin-left: 3%;
+    }
+    form textarea{
+        width: 96%;
+        margin-left: 3%;
+    }
+    form button{
+        width: 97%;
+        margin-left: 3%;
+        margin-bottom: 20px;
+    }
+
+  .mensagem span{
+  font-size: 12px;
+  padding-left: 20px;
+  }
+}
+

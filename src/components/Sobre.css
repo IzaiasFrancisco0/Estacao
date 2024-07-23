@@ -1,0 +1,40 @@
+.sobre{
+    width: 80%;
+    margin-left: 10%;
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.sobre h1{
+    color: orange;
+}
+.sobre p{
+    width: 60%;
+   text-align: center;
+   font-size: 23px;
+   line-height: 40px;
+   text-align: start;
+}
+
+@media (width < 500px){
+    .sobre{
+        width:100%;
+        height: 35vh;
+        margin-left: 2%;
+        margin-bottom: 10rem;
+        margin-top: 8rem;
+    }
+    .sobre p{
+        width: 98%;
+        margin-left: 1%;
+        font-size: 22px;
+        margin-bottom: 5rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: bold;
+      
+    }
+}
